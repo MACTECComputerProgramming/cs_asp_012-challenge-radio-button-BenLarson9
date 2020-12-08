@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ASP_12_RadioButtonChallengeBen</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Background.jpg" />
+    <None Remove="pen.png" />
+    <None Remove="pencil.png" />
+    <None Remove="phone.png" />
+    <None Remove="tablet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background.jpg" />
+    <Resource Include="pen.png" />
+    <Resource Include="pencil.png" />
+    <Resource Include="phone.png" />
+    <Resource Include="tablet.png" />
+  </ItemGroup>
+
+</Project>
